@@ -1,4 +1,4 @@
-FarmerID,FullName,Location,PhoneNumber,Email,RegistrationDate
+FarmerID,Name,Location,PhoneNumber,Email,RegistrationDate
 101,Ramesh Yadav,Siliguri,9834567890,rameshyadav@example.com,2023-03-15
 102,Anita Roy,Darjeeling,9801234567,anitaroy@example.com,2023-05-10
 103,Manoj Sharma,Jalpaiguri,9745623890,manojsharma@example.com,2023-07-01
