@@ -61,3 +61,27 @@ JOIN PurchaseOrders po ON s.SupplyID = po.SupplyID
 GROUP BY s.SupplyName
 HAVING SUM(po.Quantity) > 100;
 
+-- List all available crops by location: 
+SELECT
+  f.Name,
+  f.Location,
+  c.CropName,
+  c.QuantityKG,
+  c.PricePerKG
+FROM
+  Farmers f
+  JOIN Crops c ON f.FarmerID = c.FarmerID
+WHERE
+  c.QuantityKG > 0; 
+
+
+---Get total revenue earned by a farmer from crop sales: 
+SELECT
+  f.Name,
+  SUM(cs.TotalPrice) AS Revenue
+FROM
+  Farmers f
+  JOIN Crops c ON f.FarmerID = c.FarmerID
+  JOIN CropSales cs ON c.CropID = cs.CropID
+GROUP BY
+  f.Name;
