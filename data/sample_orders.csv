@@ -1,1 +1,12 @@
+OrderID,BuyerName,CropID,OrderDate,QuantityKG,TotalPrice,OrderStatus
+401,Ravi Agarwal,201,2025-07-05,100,2500.00,Pending
+402,Sunita Mehra,202,2025-07-06,300,5550.00,Confirmed
+403,Amit Sen,203,2025-07-07,150,3300.00,Shipped
+404,Kiran Paul,204,2025-07-08,80,2400.00,Delivered
+405,Pooja Jha,205,2025-07-09,200,3150.00,Pending
+406,Vivek Rao,206,2025-07-10,120,3360.00,Confirmed
+407,Nisha Gupta,207,2025-07-11,60,2430.00,Cancelled
+408,Arjun Das,208,2025-07-12,400,4800.00,Delivered
+409,Meena Devi,209,2025-07-13,350,7087.50,Shipped
+410,Tarun Roy,210,2025-07-14,90,3217.50,Pending
 
