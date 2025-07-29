@@ -1,1 +1,14 @@
+Table Farmers {
+  FarmerID int [pk]
+  Name varchar(100)
+  PhoneNumber varchar(20)
+  Location varchar(100)
+  Email text
+  RegistrationDate date
+}
+
+Ref: Crops.FarmerID > Farmers.FarmerID
+Ref: PurchaseOrders.FarmerID > Farmers.FarmerID
+Ref: PurchaseOrders.SupplyID > Supplies.SupplyID
+Ref: CropSales.CropID > Crops.CropID
 
