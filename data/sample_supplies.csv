@@ -1,12 +1,11 @@
-SupplyID,FarmerID,ItemName,QuantityIssued,UnitPrice,TotalCost,IssueDate
-301,101,Urea Fertilizer,50,12.00,600.00,2025-07-05
-302,102,Tractor Fuel,150,75.00,11250.00,2025-07-06
-303,103,Hybrid Seeds,200,8.50,1700.00,2025-07-07
-304,104,Organic Compost,40,20.00,800.00,2025-07-08
-305,105,Irrigation Pipes,10,250.00,2500.00,2025-07-09
-306,106,Protective Gloves,20,30.00,600.00,2025-07-10
-307,107,Pesticide Spray,35,18.50,647.50,2025-07-11
-308,108,Hoe,5,400.00,2000.00,2025-07-12
-309,109,Drip Nozzles,100,6.75,675.00,2025-07-13
-310,110,Raincoat,15,95.00,1425.00,2025-07-14
-
+SupplyID,SupplyType,SupplyName,Price,StockAvailable
+301,Fertilizer,Urea Fertilizer,12.00,500
+302,Fuel,Tractor Diesel Fuel,75.00,1000
+303,Seeds,Hybrid Maize Seeds,8.50,750
+304,Fertilizer,Organic Compost,20.00,300
+305,Equipment,Irrigation Pipe Set,250.00,120
+306,Safety Gear,Protective Gloves,30.00,400
+307,Chemicals,Pesticide Spray,18.50,600
+308,Equipment,Hand Hoe,400.00,75
+309,Equipment,Drip Irrigation Nozzles,6.75,950
+310,Clothing,Raincoat for Field Workers,95.00,250
