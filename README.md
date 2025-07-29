@@ -22,7 +22,7 @@ farmers-market-sql/ │ ├── README.md ├── schema/ │ └── crea
 
 ## 🛠️ Technologies Used
 
-- SQL (MySQL / PostgreSQL)
+- SQL (SQLite)
 - Relational Database Design
 - Indexes, Foreign Keys, and Constraints
 - Aggregations & Joins
