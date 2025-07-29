@@ -1,5 +1,3 @@
-To fill your sample_crops.csv meaningfully, 
---here's the kind of data you’ll want to include, based on how crop listings typically work in farming management applications 🌾📋
 
 CropID,FarmerID,CropName,QuantityKG,PricePerKG,AvailableFrom
 201,101,Tomatoes,500,25.00,2025-07-01
@@ -15,14 +13,3 @@ CropID,FarmerID,CropName,QuantityKG,PricePerKG,AvailableFrom
 
 
 
--- Make sure each crop entry has:
-
---A unique CropID
-
---A valid FarmerID that matches your farmer database (if you have one)
-
---The correct name of the crop
-
---Realistic quantity and pricing
-
---A sensible availability date
