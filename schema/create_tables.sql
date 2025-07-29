@@ -4,6 +4,8 @@ CREATE TABLE Farmers (
   Name VARCHAR(100),
   PhoneNumber VARCHAR(20),
   Location VARCHAR(100)
+  Email TEXT,
+  RegistrationDate DATE,
 );
 
 -- 2. Crops Table 
