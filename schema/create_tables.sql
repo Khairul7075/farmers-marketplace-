@@ -1,12 +1,17 @@
 --1. Farmers Table 
 CREATE TABLE Farmers (
   FarmerID INT PRIMARY KEY,
+  Username VARCHAR(100),
+  Password VARCHAR(25),
   Name VARCHAR(100),
+  Gender VARCHAR(10),
   PhoneNumber VARCHAR(20),
-  Location VARCHAR(100)
+  Location VARCHAR(100),
   Email TEXT,
-  RegistrationDate DATE,
+  RegistrationDate DATE
 );
+
+
 
 -- 2. Crops Table 
 CREATE TABLE Crops (
